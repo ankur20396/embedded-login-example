@@ -10,10 +10,10 @@
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,600" type="text/css" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
 	
-    <meta name="salesforce-community" content="https://embedlogin.herokuapp.com/">
+    <meta name="salesforce-community" content="ankur-nigam-developer-edition.ap15.force.com/Customers/s">
     <meta name="salesforce-client-id" content="3MVG9G9pzCUSkzZsgbma3NND9mMPspJSZSg_zegxxyiSImd7nppSVh_1qUNfAQwowCbh.Q3G6fPd2i7YRU9yV
 ">
-    <meta name="salesforce-redirect-uri" content="https://embedlogin.herokuapp.com/_callback.php">
+    <meta name="salesforce-redirect-uri" content="embedlogin.herokuapp.com/_callback.php">
     <meta name="salesforce-mode" content="modal">
     <meta name="salesforce-namespace" content="<?php echo getenv('SALESFORCE_NAMESPACE');?>">
     <meta name="salesforce-target" content="#sign-in-link">
@@ -22,8 +22,8 @@
     <meta name="salesforce-self-register-enabled" content="<?php echo getenv('SALESFORCE_SELF_REGISTER_ENABLED');?>">
     <meta name="salesforce-login-handler" content="onLogin">
     <meta name="salesforce-logout-handler" content="onLogout">
-	<link href="https://ankur-nigam-developer-edition.ap15.force.com/Customers/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
-    <script src="https://ankur-nigam-developer-edition.ap15.force.com/Customers/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
+	<link href="ankur-nigam-developer-edition.ap15.force.com/Customers/s/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
+    <script src="ankur-nigam-developer-edition.ap15.force.com/Customers/s/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
   </head>
   
   <body>
