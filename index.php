@@ -10,20 +10,20 @@
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,600" type="text/css" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
 	
-    <meta name="salesforce-community" content="ankur-nigam-developer-edition.ap15.force.com/Customers/s">
-    <meta name="salesforce-client-id" content="3MVG9G9pzCUSkzZsgbma3NND9mMPspJSZSg_zegxxyiSImd7nppSVh_1qUNfAQwowCbh.Q3G6fPd2i7YRU9yV
-">
-    <meta name="salesforce-redirect-uri" content="embedlogin.herokuapp.com/_callback.php">
+    <meta name="salesforce-community" content="https://ankur-nigam-developer-edition.ap15.force.com/Customers">
+    <meta name="salesforce-client-id" content="3MVG9G9pzCUSkzZsgbma3NND9mMPspJSZSg_zegxxyiSImd7nppSVh_1qUNfAQwowCbh.Q3G6fPd2i7YRU9yV">
+    <meta name="salesforce-redirect-uri" content="https://embedlogin.herokuapp.com/_callback.php">
     <meta name="salesforce-mode" content="modal">
-    <meta name="salesforce-namespace" content="<?php echo getenv('SALESFORCE_NAMESPACE');?>">
     <meta name="salesforce-target" content="#sign-in-link">
     <meta name="salesforce-save-access-token" content="true">
-    <meta name="salesforce-forgot-password-enabled" content="<?php echo getenv('SALESFORCE_FORGOT_PASSWORD_ENABLED');?>">
-    <meta name="salesforce-self-register-enabled" content="<?php echo getenv('SALESFORCE_SELF_REGISTER_ENABLED');?>">
     <meta name="salesforce-login-handler" content="onLogin">
     <meta name="salesforce-logout-handler" content="onLogout">
-	<link href="ankur-nigam-developer-edition.ap15.force.com/Customers/s/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
-    <script src="ankur-nigam-developer-edition.ap15.force.com/Customers/s/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
+	<link
+href="https://ankur-nigam-developer-edition.ap15.force.com/Customers/servlet/servlet.loginwidgetcontroller?type=css"
+rel="stylesheet" type="text/css"/>
+    <script
+src="https://ankur-nigam-developer-edition.ap15.force.com/Customers/servlet/servlet.loginwidgetcontroller?type=javascript_widget"
+async defer></script>
   </head>
   
   <body>
@@ -194,7 +194,7 @@
 	 	content.id = "sfid-content";
 
 		var community = document.createElement('a');
-		var commURL = document.querySelector('meta[name="salesforce-community"]').content;
+		var commURL = document.querySelector('meta[name="https://ankur-nigam-developer-edition.ap15.force.com/Customers"]').content;
 		community.href = commURL;
 		community.innerHTML = "Go to the Community";
 		community.setAttribute("style", "float:left");
