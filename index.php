@@ -12,7 +12,7 @@
 	
     <meta name="salesforce-community" content="ankur-nigam-developer-edition.ap15.force.com">
     <meta name="salesforce-client-id" content="3MVG9G9pzCUSkzZsgbma3NND9mMPspJSZSg_zegxxyiSImd7nppSVh_1qUNfAQwowCbh.Q3G6fPd2i7YRU9yV">
-    <meta name="salesforce-redirect-uri" content="embedlogin.herokuapp.com/_callback.php">
+    <meta name="salesforce-redirect-uri" content="ltaembedlogin.herokuapp.com/_callback.php">
     <meta name="salesforce-mode" content="modal">
     <meta name="salesforce-target" content="#sign-in-link">
     <meta name="salesforce-save-access-token" content="true">
